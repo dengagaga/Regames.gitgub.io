@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @font-face {
 	font-family: 'Actay'; 
-	src: url(/fonts/Actay-Regular.otf); 
+	src: url(./fonts/Actay-Regular.otf); 
 }
  
 /* Жирный */
 @font-face {
 	font-family: 'Actay Bold'; 
-	src: url(/fonts/ActayWide-Bold.otf); 
+	src: url(./fonts/ActayWide-Bold.otf); 
 }
 * {
 	padding: 0px;
