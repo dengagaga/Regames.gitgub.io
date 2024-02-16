@@ -27,24 +27,24 @@ additionallyAllItemMobil.forEach(item => {
         item.classList.toggle('additionally_all-item-mobil--active')
     })
 })
-const modal = document.querySelector('.modal')
-const modalClose  = document.querySelector('.modal-close ')
-const slideClick = document.querySelectorAll('.slide-click')
-slideClick.forEach(slide => {
-    slide.addEventListener('click', () => {
-        modal.classList.add('open')
-        document.body.classList.add('body-scroll')
-    })
-})
+// const modal = document.querySelector('.modal')
+// // const modalClose  = document.querySelector('.modal-close ')
+// const slideClick = document.querySelectorAll('.slide-click')
+// slideClick.forEach(slide => {
+//     slide.addEventListener('click', () => {
+//         modal.classList.add('open')
+//         document.body.classList.add('body-scroll')
+//     })
+// })
 
-modalClose.addEventListener('click', () => {
-    modal.classList.remove('open')
-    document.body.classList.remove('body-scroll')
-})
-headerBurgerBtn.addEventListener('click', () => {
-    header.classList.toggle('open')
-  })
-  listCompany.addEventListener('click', () => {
-    listCompany.classList.toggle('list--active')
-    headerNavDropdownMobil.classList.toggle('none-ac')
-  })
+// modalClose.addEventListener('click', () => {
+//     modal.classList.remove('open')
+//     document.body.classList.remove('body-scroll')
+// })
+// headerBurgerBtn.addEventListener('click', () => {
+//     header.classList.toggle('open')
+//   })
+//   listCompany.addEventListener('click', () => {
+//     listCompany.classList.toggle('list--active')
+//     headerNavDropdownMobil.classList.toggle('none-ac')
+//   })
