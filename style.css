@@ -983,6 +983,7 @@ width: 875px;
 }
 @media(max-width:1024px) {
 	.mobil-content {
+		padding-right: 16px;
 		display: flex;
 		justify-content: space-between;
 	}
@@ -1072,6 +1073,9 @@ width: 875px;
 	}
 }
 @media(max-width:768px) {
+	.header_rigth {
+		padding-right: 16px;
+	}
 	.swiper-buttons {
 		display: none;
 	}
@@ -1245,7 +1249,7 @@ width: 875px;
 	}
 	.div {
 		overflow: hidden;
-		margin-left: -26px;
+		margin-left: -36px;
 	}
 }
 @media(max-width:500px) {
