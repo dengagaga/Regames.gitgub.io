@@ -1249,7 +1249,7 @@ width: 875px;
 	}
 	.div {
 		overflow: hidden;
-		margin-left: -36px;
+		margin-left: -30px;
 	}
 }
 @media(max-width:500px) {
