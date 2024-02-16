@@ -143,6 +143,15 @@ legend {
 .body-white .svgs svg:nth-child(2) path{
 	stroke:#000 ;
 }
+.body-white .text-slide-one{
+	color: white;
+}
+.body-white .text-slide-two{
+	color: white;
+}
+.body-white .text-slide-three{
+	color: white;
+}
 
 /* /ROOT  */
 body {
@@ -1219,6 +1228,7 @@ width: 875px;
 	.container {
 		margin: 0 auto;
 		max-width: 877px;
+		/* overflow-x: hidden; */
 	}
 	.videos-all {
 		padding-left: 16px;
@@ -1233,7 +1243,10 @@ width: 875px;
 		line-height: 24px;
 		margin-bottom: 20px;
 	}
-	
+	.div {
+		overflow: hidden;
+		margin-left: -26px;
+	}
 }
 @media(max-width:500px) {
 	.swiper-index {
@@ -1275,6 +1288,9 @@ width: 875px;
 
 
 @media(max-width:768px) {
+	.human-body {
+		overflow-x: hidden!important;
+	}
 	.modal-frame {
 		width: 500px;
 		height: 350px;
