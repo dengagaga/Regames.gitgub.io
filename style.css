@@ -1284,8 +1284,11 @@ width: 875px;
 		line-height: 24px;
 	}
 	.videos-all {
-		padding-left: 16px;
-		padding-right: 16px;
+		padding-left: 10px;
+		padding-right: 0px;
+	}
+	.tt-pl {
+		padding-left: 6px;
 	}
 }
 
