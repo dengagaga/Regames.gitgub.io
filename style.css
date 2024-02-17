@@ -933,7 +933,7 @@ width: 875px;
 		padding-left: 5px;
 	}
 	.header-nav {
-		top: 22%;
+		top: 28%;
 	}
 	.container {
 		margin-left: 30px;
@@ -1359,11 +1359,15 @@ width: 875px;
 	overflow: visible!important;
 }
 .human-body {
-	overflow-x: hidden!important;
+	overflow-x: hidden;
 
 }
+.main-human {
+	overflow-x: hidden;
 
+}
 .container-hidden {
+	
 	clip-path: polygon(0 0, 100vw 0, 100vw 100%, 0 100%);
 }
 .swiper-slide-im {
