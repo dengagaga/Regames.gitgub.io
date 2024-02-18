@@ -41,10 +41,10 @@ additionallyAllItemMobil.forEach(item => {
 //     modal.classList.remove('open')
 //     document.body.classList.remove('body-scroll')
 // })
-// headerBurgerBtn.addEventListener('click', () => {
-//     header.classList.toggle('open')
-//   })
-//   listCompany.addEventListener('click', () => {
-//     listCompany.classList.toggle('list--active')
-//     headerNavDropdownMobil.classList.toggle('none-ac')
-//   })
+headerBurgerBtn.addEventListener('click', () => {
+    header.classList.toggle('open')
+  })
+  listCompany.addEventListener('click', () => {
+    listCompany.classList.toggle('list--active')
+    headerNavDropdownMobil.classList.toggle('none-ac')
+  })
